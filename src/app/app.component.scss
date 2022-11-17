@@ -1,0 +1,33 @@
+.d1{
+    position:relative;
+    top:80px;
+    left:250px;
+    border-radius: 10px;
+    box-shadow: 5px 10px #888888;
+    border:solid;
+    width:400px;
+    height:300px;
+}
+.heading{
+    position: relative;
+    left:50px;
+    top:50px;
+    color:red;
+    font-size: 20px;
+}
+
+button
+{
+    position: relative;
+    left:50px;
+    top:50px;
+    border-radius: 20px;
+    background-color:aquamarine;
+    font-size: 18px;
+    color:black;
+    width:200px;
+    height:30px ;
+}
+button:hover{
+    background-color: rgb(101, 101, 231);
+}

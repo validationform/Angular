@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Addition</title>
+    </head>
+<body >
+<div class="d1">
+<label class="heading">first number:</label>
+
+<input type="text" [(ngModel)]="firstNumber">
+<br><br><br>
+
+<label class="heading">second number:</label>
+
+
+<input type="text" [(ngModel)]="secondNumber">
+<br><br><br>
+
+ <label class="heading">Addition is : <b>{{ result }}</b></label>
+<br><br>
+<button (click)="addNumber()">Add number</button>
+</div>
+
+</body>
+</html>
